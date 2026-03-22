@@ -10,4 +10,12 @@ public class Biblioteca {
             }
         }
     }
+
+    public void mostrarLibros() {
+        for (Libro libro : libros) {
+            if (libro != null) {
+                System.out.println(libro.titulo + " - " + libro.autor);
+            }
+        }
+    }
 }
