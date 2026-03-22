@@ -30,4 +30,8 @@ public class Biblioteca {
     System.out.println("Libro no encontrado");
     }
 
+    public void devolverLibro(String titulo) {
+    System.out.println("📗 Libro devuelto: " + titulo);
+    }
+
 }
